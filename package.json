@@ -1,0 +1,59 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "repository": "VovanR/utils",
+  "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "start": "webpack --watch",
+    "test": "xo --no-esnext && nyc ava",
+    "tdd": "ava -w",
+    "release-patch": "mversion patch",
+    "release-minor": "mversion minor",
+    "release-major": "mversion major",
+    "deploy": "npm run build && gh-pages -d example",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "conventional-changelog-cli": "^2.0.28",
+    "coveralls": "^3.0.9",
+    "cross-env": "^6.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "gh-pages": "^2.1.1",
+    "husky": "^3.1.0",
+    "mversion": "^1.13.0",
+    "nyc": "^14.1.1",
+    "xo": "^0.25.3"
+  },
+  "peerDependencies": {},
+  "bugs": {
+    "url": "https://github.com/VovanR/utils/issues"
+  },
+  "homepage": "https://github.com/VovanR/utils#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "xo": {
+    "space": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  }
+}
