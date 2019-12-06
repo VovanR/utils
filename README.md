@@ -12,7 +12,7 @@
 ## Install
 
 ```shell
-npm install --save utils
+npm install --save @vovanr/utils
 ```
 
 ## License
@@ -24,8 +24,8 @@ MIT © [Vladimir Rodkin](https://github.com/VovanR)
 [codestyle-url]: https://github.com/xojs/xo
 [codestyle-image]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square
 
-[npm-url]: https://npmjs.org/package/utils
-[npm-image]: https://img.shields.io/npm/v/utils.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@vovanr/utils
+[npm-image]: https://img.shields.io/npm/v/@vovanr/utils.svg?style=flat-square
 
 [travis-url]: https://travis-ci.org/VovanR/utils
 [travis-image]: https://img.shields.io/travis/VovanR/utils.svg?style=flat-square
