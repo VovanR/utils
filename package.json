@@ -18,14 +18,13 @@
     "release-minor": "mversion minor",
     "release-major": "mversion major",
     "deploy": "npm run build && gh-pages -d example",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=lcov"
   },
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
     "ava": "^2.4.0",
     "conventional-changelog-cli": "^2.0.28",
-    "coveralls": "^3.0.9",
     "cross-env": "^6.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "gh-pages": "^2.1.1",
