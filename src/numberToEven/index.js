@@ -1,6 +1,8 @@
 /**
  * 11 → 10 for example
  *
+ * @version 0.0.1
+ *
  * @param {number} number
  * @returns {number}
  *

@@ -1,6 +1,8 @@
 /**
  * Value is `undefined` or `null`
  *
+ * @version 0.0.1
+ *
  * @param {*} value
  * @returns {boolean}
  *

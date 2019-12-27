@@ -6,7 +6,7 @@
  * @returns {string}
  *
  * @example
- * toSearchString({type: 'span', text: 'Foo'})
+ * toSearchString({type: 'span', text: 'Foo'});
  * //=> "type=span&text=Foo"
  */
 function toSearchString(json) {

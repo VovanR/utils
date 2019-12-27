@@ -6,11 +6,11 @@
  * @returns {function}
  *
  * @example
- * const name = createProp('Foo')
- * name()
+ * const name = createProp('Foo');
+ * name();
  * //=> "Foo"
- * name('Bar')
- * name()
+ * name('Bar');
+ * name();
  * //=> "Bar"
  */
 function createProp(value) {

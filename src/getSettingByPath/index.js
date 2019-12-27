@@ -7,7 +7,7 @@
  * @returns {Object}
  *
  * @example
- * getSettingByPath(['a', 'b'], {items: {a: {items: {b: {c: 1}}}}})
+ * getSettingByPath(['a', 'b'], {items: {a: {items: {b: {c: 1}}}}});
  * //=> {c: 1}
  */
 function getSettingByPath(path, settings) {
