@@ -1,5 +1,5 @@
-import test from 'ava';
-import toSearchString from '.';
+const test = require('ava');
+const toSearchString = require('.');
 
 test('should return search string', t => {
   t.is(toSearchString({type: 'span', text: 'Foo'}), 'type=span&text=Foo');

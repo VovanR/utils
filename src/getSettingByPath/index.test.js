@@ -1,5 +1,5 @@
-import test from 'ava';
-import getSettingByPath from '.';
+const test = require('ava');
+const getSettingByPath = require('.');
 
 const settings = {
   id: 'a',

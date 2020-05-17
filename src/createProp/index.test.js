@@ -1,5 +1,5 @@
-import test from 'ava';
-import createProp from '.';
+const test = require('ava');
+const createProp = require('.');
 
 test('should create property with initial value', t => {
   const name = createProp('Foo');

@@ -1,5 +1,5 @@
-import test from 'ava';
-import isEmptyObject from '.';
+const test = require('ava');
+const isEmptyObject = require('.');
 
 test('should return `true` for empty object', t => {
   t.is(isEmptyObject({}), true);

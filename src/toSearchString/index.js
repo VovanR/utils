@@ -10,17 +10,17 @@
  * //=> "type=span&text=Foo"
  */
 function toSearchString(json) {
-  const res = [];
+  const result = [];
 
   for (const [key, value] of Object.entries(json)) {
     if (typeof value === 'undefined') {
       continue;
     }
 
-    res.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
+    result.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
   }
 
-  return res.join('&');
+  return result.join('&');
 }
 
 module.exports = toSearchString;

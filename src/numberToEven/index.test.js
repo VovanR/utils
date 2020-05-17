@@ -1,5 +1,5 @@
-import test from 'ava';
-import numberToEven from '.';
+const test = require('ava');
+const numberToEven = require('.');
 
 test('should return even', t => {
   t.is(numberToEven(1), 0);
