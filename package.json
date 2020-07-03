@@ -23,15 +23,15 @@
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^3.8.2",
+    "ava": "^3.9.0",
     "conventional-changelog-cli": "^2.0.34",
     "cross-env": "^7.0.2",
     "cz-conventional-changelog": "^3.2.0",
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
-    "mversion": "^1.13.0",
-    "nyc": "^15.0.1",
-    "xo": "^0.30.0"
+    "mversion": "^2.0.1",
+    "nyc": "^15.1.0",
+    "xo": "^0.32.0"
   },
   "peerDependencies": {},
   "bugs": {
